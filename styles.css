@@ -9,10 +9,14 @@ body{
     justify-content: center;
     align-items: center;
     height:100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
 #card{
+    max-width: 20%;
+    max-height: 90%;
     background-color:hsl(216, 50%, 16%);
     padding:20px;
     border-radius: 25px;
@@ -28,4 +32,21 @@ body{
 
 .balance {
     color: hsl(178, 100%, 50%)
+}
+
+#equilibriumLogo{
+    border-radius: 25px;
+    
+}
+
+#credit-photo{
+    border-radius: 50%;
+    border: solid white 3px;
+    max-height: 30px;
+}
+
+.hover-blue:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
 }
