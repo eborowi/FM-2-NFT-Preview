@@ -9,8 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height:100vh;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    
 
 }
 
@@ -39,9 +38,15 @@ body{
     
 }
 
+#crediting-sect{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 #credit-photo{
     border-radius: 50%;
-    border: solid white 3px;
+    border: solid white 2px;
     max-height: 30px;
 }
 
